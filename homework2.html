@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #a{
+        height: 40px;
+        width: 40px;
+    }
+</style>
+<body>
+    <script>
+
+        for (x = 1; x < 100; x++) {
+            document.write("The namber" + x + "<br>")
+        }
+
+        for (x = 2; x < 100; x++) {
+            document.write("Even number" + x++ + "<br>")
+        }
+
+        let number = parseInt(prompt("Enter a number:"));
+        for (let x = number; x >= 0; x--) {
+            document.write(x + "  ");
+        }
+
+        let z = -1;
+        while (z <= 0) {
+            z = parseInt(prompt("Enter a positive number:"));
+        }
+
+        for (let i = z; i >= 0; i--) {
+            document.write(i + "   ");
+        }
+        document.write('<img src="cake.jpg" alt="Cake" id="a">');
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
